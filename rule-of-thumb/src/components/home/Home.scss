@@ -1,0 +1,320 @@
+.Home {
+  padding: 4rem;
+  text-align: left;
+  box-sizing: border-box;
+
+  .main {
+    background-image: url("../../assets/pope.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 4rem;
+    margin: -4rem -4rem 0;
+
+    .header {
+      color: white;
+      //background-color: rgba(0,0,0,0.25);
+      background-image: linear-gradient(
+                      to bottom,
+                      rgba(0, 0, 0, 0.4),
+                      rgba(0, 0, 0, 0.2),
+                      rgba(0, 0, 0, 0.01));
+
+
+      .page-title {
+        font-size: 2.7rem;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 4rem;
+      }
+
+      .nav {
+        position: absolute;
+        top: 0.5rem;
+        right: 1rem;
+
+        .links {
+          display: none;
+        }
+      }
+    }
+
+    .cover-person-info {
+      color: white;
+      margin: 15rem 4rem 4rem;
+      text-align: justify;
+
+      .name {
+        font-size: 5rem;
+        margin-top: -1rem;
+      }
+
+      .cover-description {
+        font-size: 2rem;
+      }
+      .wiki{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        text-decoration: underline;
+      }
+      .verdict {
+        font-weight: bold;
+        margin-top: 4rem;
+        font-size: 2rem;
+      }
+
+      .thumbs-up {
+        color: white;
+        background-color: rgb(29, 187, 180);
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 1.8rem;
+        border: none;
+        padding: 0;
+        margin-right: 1rem;
+      }
+
+      .thumbs-down {
+        color: white;
+        background-color: rgb(255, 173, 28);
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 1.8rem;
+        border: none;
+        padding: 0;
+      }
+    }
+
+    .close-wp {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      color: white;
+      width: 100%;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.1);
+
+      .close {
+        flex-grow: 1;
+        text-align: right;
+        font-size: 1.4rem;
+        padding-right: 1rem;
+      }
+
+      .close-count {
+        flex-grow: 1;
+        text-align: left;
+        font-size: 3rem;
+        padding-left: 1.6rem;
+        background-color: rgba(230, 229, 229, 0.8);
+        color: #464646;
+
+        .count {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .description {
+    margin: 3rem 0;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    background-color: #ebebeb;
+    color: #797979;
+
+    .what {
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+
+      :last-child {
+        margin-top: -1rem;
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+
+  .votes {
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin: 3rem 0;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -4rem;
+
+    .card-wp {
+      max-width: 442rem;
+      flex-shrink: 1;
+      margin: 0 4rem 4rem 0;
+
+    }
+  }
+
+  .submit-container {
+    background-color: #e9eaf0;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .submit-button {
+      border: 0.4rem solid black;
+      padding: 1.5rem 4rem;
+      font-size: 2rem;
+      background-color: transparent;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: black 0.1rem dotted;
+    margin-top: 4rem;
+    padding: 3.5rem 0;
+
+
+    .links {
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+
+      .link {
+        color: #656565;
+        padding-right: 3rem;
+        text-decoration: none;
+      }
+    }
+
+    .social {
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin-right: -2rem;
+
+      div {
+        margin-right: 2rem
+      }
+
+      a {
+        color: #333333;
+        text-decoration: none;
+      }
+
+      .fab {
+        font-size: 2.5rem;
+        margin-right: 2rem
+      }
+
+    }
+  }
+
+  @media screen and (min-width: 1390px) {
+    .main {
+      .header {
+        padding: 5rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav {
+          position: static;
+
+          .fa-bars {
+            display: none;
+          }
+
+          .links {
+            display: block;
+            margin-right: 5rem;
+
+            .link {
+              color: white;
+              text-decoration: none;
+              margin-right: 5rem;
+              font-size: 1.5rem;
+            }
+
+            .fa-search {
+              font-size: 3rem;
+            }
+          }
+        }
+
+      }
+
+      .cover-person-info {
+        position: relative;
+        max-width: 50rem;
+        padding-bottom: 8rem;
+        box-sizing: border-box;
+
+        .back {
+          background-color: rgba(0, 0, 0, 0.7);
+          padding: 4rem
+
+        }
+
+        .vote-wp {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+
+          .thumbs-up {
+            height: 8rem;
+            width: 50%;
+            margin: 0;
+            background-color: rgba(29, 187, 180, 0.8);
+          }
+
+          .thumbs-down {
+            height: 8rem;
+            margin: 0;
+            width: 50%;
+            background-color: rgba(255, 173, 28, 0.8);
+          }
+        }
+      }
+    }
+    .close-wp{
+      .close{
+        width: 33%;
+      }
+      .close-count{
+        width: 67%;
+      }
+    }
+    .container{
+      max-width: 131rem;
+      margin: 0 auto;
+      .description{
+        flex-direction: row;
+        .what{
+          width: 30rem;
+        }
+        .close-wp{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 10rem;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
