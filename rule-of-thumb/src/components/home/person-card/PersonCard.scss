@@ -74,10 +74,16 @@
 
       .thumbs-up {
         margin-right: 1rem;
+        outline: none;
       }
 
       .thumbs-down {
         margin-right: 1rem;
+        outline: none;
+      }
+
+      .selected{
+        border: white solid 0.1rem;
       }
 
       .text-button {

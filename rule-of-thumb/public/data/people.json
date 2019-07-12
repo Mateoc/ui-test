@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Kanye West",
+    "monthsInIndustry": 1,
+    "industry": "Entertainment",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "votesUp": 64,
+    "votesDown": 36,
+    "votesUpCount": 64,
+    "votesDownCount": 36,
+    "image": "/data/kanye-west.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Mark Zuckerberg",
+    "monthsInIndustry": 1,
+    "industry": "Business",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "votesUp": 36,
+    "votesDown": 64,
+    "votesUpCount": 36,
+    "votesDownCount": 64,
+    "image": "/data/mark.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "Cristina Fernandez de Kirchner",
+    "monthsInIndustry": 1,
+    "industry": "Politics",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "votesUp": 36,
+    "votesDown": 64,
+    "votesUpCount": 36,
+    "votesDownCount": 64,
+    "image": "/data/cristina.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Malala Yousafzai",
+    "monthsInIndustry": 1,
+    "industry": "Entertainment",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "votesUp": 64,
+    "votesDown": 36,
+    "votesUpCount": 64,
+    "votesDownCount": 36,
+    "image": "/data/malala.jpg"
+  }
+]

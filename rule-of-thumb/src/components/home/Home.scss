@@ -3,6 +3,17 @@
   text-align: left;
   box-sizing: border-box;
 
+  .voted-message{
+    position: fixed;
+    font-size: 3rem;
+    padding: 4rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: rgba(29, 187, 180, 0.8);
+    z-index: 1;
+  }
+
   .main {
     background-image: url("../../assets/pope.jpeg");
     background-repeat: no-repeat;
